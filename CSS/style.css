@@ -1,0 +1,7 @@
+* :not(#btn1){
+    margin: 0 auto;
+}
+
+body{
+    overflow: hidden;
+}
