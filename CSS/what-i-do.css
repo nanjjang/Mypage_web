@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap');
+
+.what-i-do {
+  background: #d5d5d5;
+  min-height: 100vh;
+  font-family: 'Inter', sans-serif;
+}
+
+.what-i-do__canvas {
+  position: relative;
+  width: 100%;
+  min-height: 9500px;
+  overflow: hidden;
+}
+
+.panel {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  border-bottom: 1px solid #111;
+  padding-bottom: 12px;
+}
+
+.panel .badge {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin: 0;
+  font-size: 1rem;
+  color: #222;
+}
+
+.panel .badge i {
+  width: 20px;
+}
+
+.panel--language {
+  width: 400px;
+  left: 100px;
+  top: 900px;
+}
+
+.panel--frontend {
+  width: 931px;
+  left: 51px;
+  top: 5134px;
+}
+
+.panel--backend {
+  width: 971px;
+  left: 1443px;
+  top: 2880px;
+}
+
+.panel--game {
+  width: 840px;
+  left: 1600px;
+  top: 6861px;
+}
+
+.section-title {
+  position: absolute;
+  color: #e37635;
+  font-size: 450px;
+  font-weight: 800;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+}
+
+.section-title--language {
+  width: 2862px;
+  height: 436px;
+  left: 560px;
+  top: 856px;
+}
+
+.section-title--backend {
+  width: 2107px;
+  height: 436px;
+  left: -72px;
+  top: 2853px;
+  line-height: 0.9;
+}
+
+.section-title--frontend {
+  width: 1470px;
+  height: 980px;
+  left: 1100px;
+  top: 4659px;
+}
+
+.section-title--game {
+  width: 1626px;
+  height: 980px;
+  left: -118px;
+  top: 6315px;
+}
+
+.portfolio-banner {
+  position: absolute;
+  width: 1773px;
+  height: 243px;
+  left: 875px;
+  top: 8082px;
+  color: #e37635;
+  font-size: 250px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
