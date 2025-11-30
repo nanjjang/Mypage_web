@@ -6,6 +6,16 @@
   font-family: 'Inter', sans-serif;
 }
 
+.what-i-do h1{
+    padding: 100px;
+    font-size: 60px;
+    font-weight: 1000;
+}
+
+.what-i-do h1 span{
+    color: #e37635;
+}
+
 .what-i-do__canvas {
   position: relative;
   width: 100%;
@@ -16,42 +26,32 @@
 .panel {
   position: absolute;
   display: flex;
-  flex-direction: column;
-  gap: 6px;
-  border-bottom: 1px solid #111;
+  gap: 20px;
   padding-bottom: 12px;
 }
 
-.panel .badge {
-  list-style: none;
-  display: flex;
-  align-items: center;
-  gap: 8px;
-  margin: 0;
-  font-size: 1rem;
-  color: #222;
-}
-
-.panel .badge i {
-  width: 20px;
+.icon {
+  width: 90px;
+  height: 90px;
+  filter: brightness(0.7);
 }
 
 .panel--language {
   width: 400px;
   left: 100px;
-  top: 900px;
+  top: 970px;
 }
 
 .panel--frontend {
-  width: 931px;
-  left: 51px;
-  top: 5134px;
+  width: 400px;
+  left: 2100px;
+  top: 5200px;
 }
 
 .panel--backend {
-  width: 971px;
-  left: 1443px;
-  top: 2880px;
+  width: 400px;
+  left: 840px;
+  top: 3400px;
 }
 
 .panel--game {
@@ -82,6 +82,7 @@
   left: -72px;
   top: 2853px;
   line-height: 0.9;
+  line-height: 400px;
 }
 
 .section-title--frontend {
@@ -89,6 +90,7 @@
   height: 980px;
   left: 1100px;
   top: 4659px;
+  line-height: 400px;
 }
 
 .section-title--game {
@@ -96,6 +98,7 @@
   height: 980px;
   left: -118px;
   top: 6315px;
+  line-height: 400px;
 }
 
 .portfolio-banner {

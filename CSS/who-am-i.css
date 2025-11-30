@@ -100,9 +100,9 @@
 
 .container .main{
   position: relative;
-  top: 200px;
+  top: 150px;
   left: 200px;
-  padding: 50px;
+  padding: 50px 50px 500px 50px;
 }
 
 .who-am-i .container .main h1{
@@ -122,7 +122,7 @@
 }
 
 .container .aboutMe{
-  padding: 500px 0 100px;
+  padding: 400px 0 500px 0;
 }
 
 .container .aboutMe > div{
@@ -165,8 +165,8 @@
 .etc{
   display: flex;
   margin: 0;
-  background-color: darkgray;
-  min-height: 30rem;
+  background-color: rgb(156, 156, 156);
+  min-height: 15rem;
 }
 
 .etc .index{
@@ -185,18 +185,18 @@
 }
 
 .etc .index ul li{
-  margin: 0;
+  margin: 0 !important;
   cursor: pointer;
-  width: 100%;
+  width: fit-content;
   font-family: "Raleway", sans-serif;
   opacity: 0.5;
-  font-size: 50px;
+  font-size: 30px;
   font-weight: 800;
   font-style: normal;
   display: flex;
   align-items: center;
   gap: 0.35rem;
-  justify-content: flex-start;
+  
   text-align: left;
 }
 
@@ -204,14 +204,18 @@
 .etc .index ul li span {
   font-family: "Dela Gothic One", sans-serif;
   font-weight: 400;
-  font-style: normal;
-  display: inline-block;
-  width: 1rem;
-  text-align: left;
+  font-size: 30px;
+  margin: 0 !important;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: auto;
 }
 
 
 .etc .detail{
   flex: 1.5;
-  padding: 50px;
+  padding: 250px 50px 0 50px;
+  font-size: 16px;
+  opacity: 0.5;
 }

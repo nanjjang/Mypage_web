@@ -51,7 +51,7 @@ setTimeout(typing, 1500);
 const onClick = e => {
   const { x, y, width, height} = btn.getBoundingClientRect()
   const radius = Math.sqrt(width * width + height * height)
-  btn.style.setProperty('--diameter', radius * 2 + 'px')
+  btn.style.setProperty('--diameter', radius * 3 + 'px')
   const { clientX, clientY } = e
   const left = (clientX - x - radius) / width * 100 + '%'
   const top = (clientY - y - radius) / height * 100 + '%'
@@ -65,3 +65,9 @@ const onClick = e => {
 }
 
 btn.addEventListener('click', onClick)
+
+
+function delayRedirect() {wait(600).then(() => {
+    location.href='who-am-i.html'
+  })
+}

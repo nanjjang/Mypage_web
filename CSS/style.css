@@ -1,7 +1,12 @@
-* :not(#btn1){
-    margin: 0 auto;
+:root{
+    --color-bl: #181818;
+    --color-wh: #D5D5D5;
+    --color-1: #E37635;
+    --color-2:#EC7B16;
 }
 
-body{
-    overflow: hidden;
+* :not(#btn1, .index, .li, .ul){
+    margin: 0 auto;
+    box-sizing: border-box;
+    list-style: none;
 }
